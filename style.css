@@ -13,8 +13,32 @@
 
 /* Utilizando as váriaveis CSS */
 
-body{
+body {
     background-color: var(--cor-do-fundo);
     color: var(--branco-principal);
+    
+}
+
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+}
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
     
 }
